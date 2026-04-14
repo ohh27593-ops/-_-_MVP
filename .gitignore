@@ -1,0 +1,37 @@
+# 파이썬 캐시
+__pycache__/
+*.pyc
+*.pyo
+
+# 가상환경
+venv/
+.venv/
+
+# 환경변수 / 비밀설정
+.env
+.env.*
+*.env
+
+# 구글 인증키 / 서비스 계정 키
+credentials.json
+google_api_key.json
+*.json
+
+# 엑셀, CSV, 로그, 임시 결과물
+*.xlsx
+*.csv
+*.log
+
+# 운영 중 생성되는 결과 폴더
+데이터예시/입력예시/
+데이터예시/출력예시/
+
+# 운영 데이터 예시
+new_user.xlsx
+user_info.xlsx
+delete_user.xlsx
+uninteg_user.xlsx
+
+# OS 파일
+.DS_Store
+Thumbs.db
